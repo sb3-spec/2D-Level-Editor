@@ -141,7 +141,7 @@ while running:
 
     # save and load data
     if save_button.draw(screen):
-        pickle_out = open(f'level{level}_data', 'wb')
+        pickle_out = open(f'./level_data/level{level}_data', 'wb')
         pickle.dump(world_data, pickle_out)
         pickle_out.close()
 
