@@ -96,7 +96,7 @@ def draw_grid():
         pygame.draw.line(screen, WHITE, (i * TILE_SIZE - scroll, 0), (i * TILE_SIZE - scroll, SCREEN_HEIGHT))
 
     # horizontal lines
-    for i in range(MAX_COLS + 1):
+    for i in range(ROWS + 1):
         pygame.draw.line(screen, WHITE, (0, i * TILE_SIZE), (SCREEN_WIDTH, TILE_SIZE * i))
     
 
